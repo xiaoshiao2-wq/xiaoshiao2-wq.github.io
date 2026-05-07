@@ -1,3 +1,12 @@
+const contactEmail = "2279810794@qq.com";
+
+document.querySelectorAll('a[href^="mailto:"]').forEach((link) => {
+  link.href = `mailto:${contactEmail}`;
+  if (link.classList.contains("contact-link")) {
+    link.textContent = contactEmail;
+  }
+});
+
 const revealTargets = document.querySelectorAll(
   ".section-intro, .project-card, .skills-section, .about-section, .contact-section"
 );
