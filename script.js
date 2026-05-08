@@ -8,7 +8,7 @@ document.querySelectorAll('a[href^="mailto:"]').forEach((link) => {
 });
 
 const revealTargets = document.querySelectorAll(
-  ".section-intro, .project-card, .skills-section, .about-section, .contact-section"
+  ".section-intro, .project-card, .reel-card, .skills-section, .pipeline-section, .about-section, .contact-section"
 );
 
 revealTargets.forEach((target) => target.classList.add("reveal"));
