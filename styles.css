@@ -308,6 +308,11 @@ main {
   background: #070a12;
 }
 
+.wide-video-shell video {
+  aspect-ratio: 47 / 20;
+  object-fit: contain;
+}
+
 .reel-copy {
   padding: 8px 6px 6px;
 }
