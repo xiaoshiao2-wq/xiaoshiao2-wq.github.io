@@ -18,7 +18,7 @@ videos.forEach((video) => {
 });
 
 const revealTargets = document.querySelectorAll(
-  ".section-intro, .reel-card, .pipeline-section, .skills-section, .about-section, .contact-section"
+  ".section-intro, .reel-card, .pipeline-section, .skills-section, .contact-section"
 );
 
 revealTargets.forEach((target) => target.classList.add("reveal"));
